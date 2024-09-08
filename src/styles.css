@@ -1,0 +1,109 @@
+/* Set the entire page background to black */
+body {
+    background-color: black;
+    color: white;  /* Ensure the text is readable on a dark background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+}
+
+/* Container for the form */
+.container {
+    width: 400px;
+    padding: 40px;
+    background-color: #1e1e1e;  /* Dark grey background for the form */
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5); /* Add shadow for a modern look */
+}
+
+/* Header styling */
+header h1 {
+    text-align: center;
+    color: #ffcc00;  /* Yellow text for the header */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form section */
+.form-section h2 {
+    text-align: center;
+    color: #ffcc00;  /* Yellow text for form title */
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Form input labels */
+form label {
+    display: block;
+    font-weight: bold;
+    color: #ffcc00;  /* Yellow labels */
+    margin-bottom: 8px;
+}
+
+/* Form input styles */
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #333;  /* Dark border for input */
+    border-radius: 8px;  /* Smooth rounded corners */
+    background-color: #2b2b2b;  /* Darker input background */
+    color: white;  /* White text inside the input fields */
+    font-size: 14px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+form input:focus {
+    outline: none;
+    background-color: #3c3c3c;  /* Lighter background on focus */
+    border-color: #ffcc00;  /* Yellow border on focus */
+}
+
+/* Button styles */
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffcc00;  /* Yellow button */
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #ffd633;  /* Slightly lighter yellow on hover */
+}
+
+/* Link to Sign In */
+p a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Center the content */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;  /* Adjust container width for smaller screens */
+    }
+}
